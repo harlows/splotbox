@@ -5,7 +5,7 @@
 */
 
 // valid file extensions
-var allowables = ['mp3' , 'm4a', 'ogg', 'jpg' , 'png', 'jpeg','gif'];
+var allowables = ['mp3' , 'm4a', 'ogg', 'jpg' , 'png', 'jpeg','gif', 'h5p'];
 
 function isAllowableUploadLink(url) {
 	// get extension -- h/t https://stackoverflow.com/a/12900504/2418186
